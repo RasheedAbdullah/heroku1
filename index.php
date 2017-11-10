@@ -7,4 +7,7 @@
     if($token=="myCustomToken123"){
         echo $challenge;
     }
+	
+	$input=file_get_contents('php://input');
+	var_dump($input);
 ?>
